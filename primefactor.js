@@ -1,5 +1,5 @@
-var g = 35;
-var i, j;
+var g = 600851475143;
+var i;
 var flag=0, pf=0;
 for(i=2;i<=(g/2);i++)
 {
@@ -14,7 +14,7 @@ for(i=2;i<=(g/2);i++)
 			}
 		}
 
-		if(flag==1)
+		if(flag==0)
 		{
 			pf=i;
 			flag=0;
@@ -22,4 +22,3 @@ for(i=2;i<=(g/2);i++)
 	}
 }
 console.log(pf);
-console.error("Error");
